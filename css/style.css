@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cabeca{
+    text-align: center;
+    width: 72%;
+}
+#titulo{
+    margin-top: 1%;
+    font-family: Verdana;
+    font-size: 40px;
+}
+#des{
+    margin-top: 2%;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container_form{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4%;
+}
+.notmargin{
+    margin: 0%;
+}
+form{
+    margin-top: 5.5%;
+    font-family: Verdana;
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+}
+.data{
+    width: 44px;
+    height: 100%;
+}
+.txt_box{
+    width: 84%;
+    height: 60%;
+}
+
+
+/* Segunda pagina de recibo */
+.container_recibo{
+    display: flex;
+    margin-top: 3%;
+}
+#titulo2{
+    font-family: Arial Unicode MS;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.valor_recibo{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 1%;
+}
+.recibo{
+    width: 50%;
+}
+.direita{
+    justify-content: right;
+    margin-right: 6%;
+}
+.centro{
+    justify-content: center;
+}
+.coluna{
+    flex-direction: column;
+    margin-left: 65%;
+    margin-top: 10%;
+}
+.sublinhado{
+    text-decoration: underline;
+    margin-left: 1%;
+}
