@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container_recibo{
+    display: flex;
+    margin-top: 1.5%;
+}
+#titulo2{
+    font-family: Arial Unicode MS;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.valor_recibo{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 1%;
+}
+.recibo{
+    width: 75%;
+}
+.direita{
+    justify-content: right;
+    margin-right: 6%;
+}
+.centro{
+    justify-content: center;
+}
+.coluna{
+    flex-direction: column;
+    margin-left: 65%;
+    margin-top: 10%;
+}
+.sublinhado{
+    text-decoration: underline;
+    margin-left: 1%;
+}
+
+button{
+    padding: 10px;
+    background-color: #30b8a6;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+#voltar {
+    margin-left: 10%;
+    background-color: #dc3545;
+}

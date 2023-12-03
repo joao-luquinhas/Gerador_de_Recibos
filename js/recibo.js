@@ -104,4 +104,39 @@ if (window.location.pathname.endsWith("recibo.html")) {
     data.textContent = local.toUpperCase() + ", " + dia + " de " + nomeMes + " de " + ano;
 }
 
+function limpar(){
+  document.getElementById('val').value = '';
+  document.getElementById('val_ext').value = '';
+  document.getElementById('ref').value = '';
+  document.getElementById('nom_pag').value = '';
+  document.getElementById('cpf_pag').value = '';
+  document.getElementById('for_pag').value = '';
+  document.getElementById('nom_emi').value = '';
+  document.getElementById('cpf_emi').value = '';
+  document.getElementById('rg_emi').value = '';
+  document.getElementById('dia').value = '';
+  document.getElementById('mes').value = '';
+  document.getElementById('ano').value = '';
+  document.getElementById('loc').value = '';
+}
 
+function imprimir(){
+  var imprimir = document.getElementById('imprimir');
+  var voltar = document.getElementById('voltar');
+
+  imprimir.style.backgroundColor = '#ffffff'; 
+  imprimir.innerHTML = '';
+
+  voltar.style.backgroundColor = '#ffffff'; 
+  voltar.innerHTML = '';
+
+  setTimeout(() => {
+    imprimir.style.backgroundColor = '#22665e';
+    imprimir.innerHTML = 'Imprimir';
+
+    voltar.style.backgroundColor = '#84202f';
+    voltar.innerHTML = 'Voltar';
+  }, 1000);
+
+  window.print()
+}
